@@ -1,4 +1,4 @@
-lists = [5, 4, 3, 2, 1]
+#lists = [5, 4, 3, 2, 1]
 def arr(lists):
 	#选择排序
 	count = len(lists)
