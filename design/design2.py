@@ -2,7 +2,7 @@
 # 简单工场模式
 from abc import ABCMeta,abstractmethod
 
-class Payment(ABCMeta):
+class Payment(metaclass=ABCMeta):
     #抽象产品角色
     @abstractmethod
     def pay(self,money):
