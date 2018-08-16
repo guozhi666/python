@@ -1,7 +1,7 @@
 #-*-coding:utf-8-*-
 def addx(x):
 	def adder(y):
-		return x + y 
+		return x + y
 	return adder
 	
 #c = addx(8)
