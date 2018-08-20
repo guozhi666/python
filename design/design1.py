@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+
 #单例模式
 class Singleton(object):
     #如果该类已经有了一个实例则直接返回,否则创建一个全局唯一的实例
